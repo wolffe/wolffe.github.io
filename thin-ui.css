@@ -14,3 +14,86 @@ body {
   padding: 2em;
   background-color: #FFFFFF;
 }
+
+tt, code {
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #E74C3C;
+    background-color: rgba(192, 57, 43, 0.05);
+    border-radius: 3px;
+}
+
+.thin-ui-light {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 16px;
+}
+.thin-ui-dark {
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 16px;
+}
+
+.thin-ui-input {
+    background-color: #FFFFFF;
+    line-height: normal;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    border: 1px solid #BDC3C7;
+    border-radius: 2px;
+    box-shadow: inset 0.2px 2px 3px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+}
+.thin-ui-textarea {
+    width: 100%;
+    background-color: #FFFFFF;
+    line-height: normal;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    border: 1px solid #BDC3C7;
+    border-radius: 2px;
+    box-shadow: inset 0.2px 2px 3px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+}
+.thin-ui-textarea-code {
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+    font-size: 12px;
+}
+.thin-ui-button {
+    cursor: pointer;
+    background-color: #ECF0F1;
+    color: #333333;
+    border: 0 none;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    padding: 8px 16px;
+    margin: 2px;
+    line-height: normal;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 13px;
+    text-decoration: none;
+}
+.thin-ui-button:hover {
+    background-color: #BDC3C7;
+    text-decoration: none;
+}
+
+.thin-ui-button-primary {
+    background-color: #1ABC9C;
+    color: #FFFFFF;
+}
+.thin-ui-button-primary:hover {
+    background-color: #16A085;
+    color: #FFFFFF;
+}
+.thin-ui-button-neutral {
+    background-color: #BDC3C7;
+    color: #FFFFFF;
+}
+.thin-ui-button-neutral:hover {
+    background-color: #95A5A6;
+    color: #FFFFFF;
+}
+

@@ -3,6 +3,27 @@
 <head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="thin-ui.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+  function setHeight() {
+    windowHeight = $(window).innerHeight();
+    $('.sidebar').css('min-height', windowHeight);
+  };
+  setHeight();
+  
+  $(window).resize(function() {
+    setHeight();
+  });
+});
+
+// If you don't care about changing the height when the window resizes then you can use the following simplified version instead:
+
+// $(document).ready(function() {
+//   windowHeight = $(window).innerHeight();
+//   $('.sidebar').css('min-height', windowHeight);
+// });
+    </script>
 </head>
 <body>
 

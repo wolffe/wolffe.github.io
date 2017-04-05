@@ -101,3 +101,14 @@ tt, code {
     color: #FFFFFF;
 }
 
+.thin-ui-checkbox { display:none; } /* to hide the checkbox itself */
+.thin-ui-checkbox + label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+}
+
+.thin-ui-checkbox + label:before { content: "\f096"; } /* unchecked icon */
+.thin-ui-checkbox + label:before,
+.thin-ui-checkbox:checked + label:before { width: 20px; } /* space between checkbox and label */
+
+.thin-ui-checkbox:checked + label:before { content: "\f046"; } /* checked icon */

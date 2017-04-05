@@ -132,6 +132,28 @@ tt, code {
   display: none;
 }
 
+.thin-ui-select-wrapper {
+  position: relative;
+}
+
+.thin-ui-select-wrapper:after {
+  content: "\f107";
+  font: 16px "FontAwesome";
+  color: #666666;
+  margin-left: -24px;
+  position: relative;
+  pointer-events: none;
+}
+
+.thin-ui-select-wrapper:hover:after {
+  color: #000000;
+}
+
+.thin-ui-select-wrapper select:focus {
+  border: 1px solid #BDC3C7;
+}
+
+
 
 
 .thin-ui-checkbox { display:none; } /* to hide the checkbox itself */

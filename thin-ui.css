@@ -9,11 +9,12 @@ body {
 }
 
 .sidebar {
-  box-sizing: border-box;
-  float: left;
-  width: 33%;
-  padding: 2em;
-  background-color: #FFFFFF;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    width: 33%;
+    padding: 2em;
+    background-color: #FFFFFF;
 }
 
 tt, code {

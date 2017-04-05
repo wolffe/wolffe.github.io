@@ -6,3 +6,11 @@ body {
     color: #333333;
     background-color: #ECF0F1;
 }
+
+.sidebar {
+  box-sizing: border-box;
+  float: left;
+  width: 33%;
+  padding: 2em;
+  background-color: #FFFFFF;
+}

@@ -103,11 +103,10 @@ tt, code {
 
 
 
-.thin-ui-select-wrapper select {
+.thin-ui-dropdown {
   font-family: inherit;
   font-size: 0.95em;
   font-weight: 400;
-  padding: 3px;
   margin: 0;
   width: auto;
   height: 2.7em;
@@ -127,11 +126,12 @@ tt, code {
   padding: 0 10px;
 }
 
-.thin-ui-select-wrapper select::-ms-expand {
+.thin-ui-dropdown::-ms-expand {
   /* for IE 11 */
   display: none;
 }
 
+/**
 .thin-ui-select-wrapper {
   position: relative;
 }
@@ -144,12 +144,13 @@ tt, code {
   position: relative;
   pointer-events: none;
 }
+/**/
 
 .thin-ui-select-wrapper:hover:after {
   color: #000000;
 }
 
-.thin-ui-select-wrapper select:focus {
+.thin-ui-dropdown:focus {
   border: 1px solid #BDC3C7;
 }
 

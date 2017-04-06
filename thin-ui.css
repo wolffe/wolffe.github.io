@@ -183,7 +183,9 @@ tt, code {
 }
 .thin-ui-form textarea,
 .thin-ui-textarea {
+    padding: 8px 24px 8px 10px;
     width: 100%;
+    height: auto;
 }
 .thin-ui-form label {
     display: block;

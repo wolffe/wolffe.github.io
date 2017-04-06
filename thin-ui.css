@@ -63,7 +63,8 @@ tt, code {
     font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
     font-size: 12px;
 }
-.thin-ui-button {
+.thin-ui-button,
+.thin-ui-form input[type="submit"] {
     box-sizing: border-box;
     cursor: pointer;
     background-color: #ECF0F1;
@@ -79,7 +80,8 @@ tt, code {
     font-size: 14px;
     text-decoration: none;
 }
-.thin-ui-button:hover {
+.thin-ui-button:hover,
+.thin-ui-form input[type="submit"]:hover {
     background-color: #BDC3C7;
     text-decoration: none;
 }
@@ -181,3 +183,37 @@ tt, code {
   border: 1px solid #1ABC9C;
 }
 
+
+
+
+.thin-ui-form input[type="password"],
+.thin-ui-form input[type="number"],
+.thin-ui-form input[type="submit"],
+.thin-ui-form input[type="email"],
+.thin-ui-form input[type="text"],
+.thin-ui-form input[type="url"],
+.thin-ui-form textarea,
+.thin-ui-form select,
+.thin-ui-input {
+    box-sizing: border-box;
+    width: 60%;
+
+    background-color: #FFFFFF;
+    line-height: normal;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    border: 0 none;
+    padding: 8px;
+    margin: 2px;
+}
+.thin-ui-form input[type="number"],
+.thin-ui-form input[type="submit"],
+.thin-ui-form select,
+.thin-ui-select {
+    width: auto;
+}
+.thin-ui-form textarea,
+.thin-ui-textarea {
+    width: 100%;
+}

@@ -164,10 +164,10 @@ tt, code {
 .thin-ui-checkblock + label {
   display: inline-block;
   padding: 8px 12px;
-  background: #dedede;
-  color: #444;
+  background-color: #ECF0F1;
+  color: #444444;
   cursor: pointer;
-  border:1px solid black;
+  border: 1px solid #BDC3C7;
 }
 
 .thin-ui-checkblock + label:hover {
@@ -176,8 +176,8 @@ tt, code {
 }
 
 .thin-ui-checkblock:checked + label {
-  background: #3ea868;
+  background-color: #1ABC9C;
   color: #f0f0f0;
-  border:1px solid #3ea868;
+  border: 1px solid #1ABC9C;
 }
 

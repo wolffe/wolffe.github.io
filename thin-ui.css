@@ -154,3 +154,30 @@ tt, code {
 .thin-ui-checkbox:checked + label:before { width: 20px; } /* space between checkbox and label */
 
 .thin-ui-checkbox:checked + label:before { content: "\f046"; } /* checked icon */
+
+
+
+.thin-ui-checkblock {
+  display: none;
+}
+
+.thin-ui-checkblock + label {
+  display: inline-block;
+  padding: 8px 12px;
+  background: #dedede;
+  color: #444;
+  cursor: pointer;
+  border:1px solid black;
+}
+
+.thin-ui-checkblock + label:hover {
+  background: #eeeeee;
+  border:1px solid black;
+}
+
+.thin-ui-checkblock:checked + label {
+  background: #3ea868;
+  color: #f0f0f0;
+  border:1px solid #3ea868;
+}
+

@@ -154,7 +154,6 @@ tt, code {
 
 .thin-ui-form input[type="password"],
 .thin-ui-form input[type="number"],
-.thin-ui-form input[type="submit"],
 .thin-ui-form input[type="email"],
 .thin-ui-form input[type="text"],
 .thin-ui-form input[type="url"],
@@ -175,7 +174,6 @@ tt, code {
     margin: 2px;
 }
 .thin-ui-form input[type="number"],
-.thin-ui-form input[type="submit"],
 .thin-ui-select {
     width: auto;
 }

@@ -159,7 +159,6 @@ tt, code {
 .thin-ui-form input[type="text"],
 .thin-ui-form input[type="url"],
 .thin-ui-form textarea,
-.thin-ui-form select,
 .thin-ui-input {
     box-shadow: inset 0.2px 2px 3px rgba(0, 0, 0, 0.1);
 
@@ -177,7 +176,6 @@ tt, code {
 }
 .thin-ui-form input[type="number"],
 .thin-ui-form input[type="submit"],
-.thin-ui-form select,
 .thin-ui-select {
     width: auto;
 }

@@ -13,6 +13,7 @@
 .thin-ui-button,
 .thin-ui-form input[type="submit"] {
     box-sizing: border-box;
+    display: inline-block;
     cursor: pointer;
     background-color: #ECF0F1;
     color: #333333;
@@ -21,7 +22,7 @@
     padding: 0 16px;
     margin: 2px;
     height: 34px;
-    line-height: normal;
+    line-height: 34px;
     font-family: inherit;
     font-weight: 400;
     font-size: 14px;

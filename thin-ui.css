@@ -163,3 +163,21 @@
     font-weight: 400;
     font-size: 14px;
 }
+
+.thin-ui-select {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: inherit;
+    padding: 8px 8px;
+
+    background-color: #ECF0F1;
+    border: 1px solid #BDC3C7;
+    border-radius: 3px;
+    box-shadow: inset 0.2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+.thin-ui-select:hover,
+.thin-ui-select:active,
+.thin-ui-select:focus {
+    border: 1px solid #34495E;
+}
